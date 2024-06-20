@@ -56,6 +56,7 @@ def plot_loss_curves(results):
 # See creation: https://www.learnpytorch.io/04_pytorch_custom_datasets/#113-putting-custom-image-prediction-together-building-a-function
 from typing import List
 import torchvision
+import torch
 
 
 def pred_and_plot_image(
